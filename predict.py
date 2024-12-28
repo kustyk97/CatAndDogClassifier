@@ -4,7 +4,6 @@ from matplotlib import pyplot as plt
 from PIL import Image
 from model import ImageClassifier
 import argparse
-
 # Set image size.
 IMAGE_WIDTH = 128
 IMAGE_HEIGHT = 128

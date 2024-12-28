@@ -84,7 +84,7 @@ def test(
 
 def log_results(dataset_path: str, model_path: str, loss: float, acc: float) -> None:
     """Log results to a text file."""
-    with open("results.txt", "a") as f:
+    with open("results/testResults.txt", "a") as f:
         f.write(f"Path to testset: {dataset_path}\n")
         f.write(f"Tested model path: {model_path}\n")
         f.write(f"Loss score: {loss}\n")
